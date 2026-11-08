@@ -1,0 +1,6 @@
+// Geometrie aus den beiden Besuchsskizzen, unabhängig von Aktivitätsdaten.
+const floorGeometry = {
+ eg:{title:'Erdgeschoss',number:'0',viewBox:'0 0 700 990',shell:'M35 25 L210 40 L330 33 L485 39 L665 25 L650 270 L640 965 L305 965 L180 945 L35 945 Z',walls:['M195 40 V83 M195 135 V170 H450 V240','M195 222 H235 M195 275 H292 L310 268 H420 L455 260 V225','M310 268 V358','M195 450 Q285 433 320 452 V530','M320 550 V965','M320 650 H400 V770 H320','M320 800 H400 V935 H320','M635 770 H570 V920 H630','M35 275 H95','M550 260 H650'],stair:{x:245,y:195,w:165,h:65},labels:[{x:360,y:710,text:'Getränke'},{x:360,y:865,text:'▣ Tickets'},{x:601,y:845,text:'♧ Garderobe'},{x:477,y:945,text:'↑ EINGANG'}]},
+ og:{title:'1. Obergeschoss',number:'+1',viewBox:'0 0 700 360',shell:'M35 30 L200 43 L320 35 L485 40 L665 28 L650 300 L450 320 L190 315 L35 310 Z',walls:['M195 40 V80','M195 170 H450 V245','M195 222 H235 M195 285 V310 H285','M410 308 H455 V265','M450 40 V110'],stair:{x:245,y:220,w:160,h:70},labels:[]},
+ ug:{title:'Untergeschoss',number:'−1',viewBox:'0 0 700 420',shell:'M80 40 L260 53 L420 43 L600 52 L605 345 L80 345 Z',walls:['M270 210 H600','M270 270 H320 M270 320 V345 H390','M525 340 H600 V285'],stair:{x:335,y:255,w:175,h:65},labels:[{x:420,y:145,text:'WC'},{x:205,y:230,text:'Keine Aktivitäten'},{x:205,y:250,text:'dokumentiert'}]}
+};
