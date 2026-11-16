@@ -1,5 +1,7 @@
 # Gefühlssache — Personalized Museum Experience Guide
 
+**Aktueller Stand:** Die 57 recherchierten Stationen und offenen Fragen stehen im [Recherchebestand](STATIONEN.md). Die folgenden älteren Abschnitte zu Demo-Zeiten und erfundenen Stationen beschreiben frühere Prototypeinstellungen.
+
 Independent, unofficial KISD / TH Köln student prototype. Built on the existing interactive map; `geometry.js` is unchanged. No installation, API, account, deployment or uploads.
 
 ## Open locally

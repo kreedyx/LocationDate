@@ -1,59 +1,17 @@
-# Eingetragene Stationen
+# Recherchebestand
 
-Übertragen aus IMG_8672.PNG. Gebäudegeometrie unverändert. Beschreibungen, Beispiel-Fragen, Gruppengrößen und Zeiten sind ergänzte Prototyp-Angaben.
+Die 57 Einträge stehen in `research-data.js`. Die Nummern sind Referenzen der Fotoauswertung. Die Website verwendet diese Daten für Übersicht, Karte und Tour. Die vier Filterkategorien sind Liebe & Beziehungen, Kommunikation & Austausch, Kreativität und Spiele.
 
-★ Gut zum Kennenlernen · ♡ Für Menschen, die sich schon näher kennen · ★♡ Beides · – Keine Markierung in der Notiz.
+- **Karte:** Die bestehende Skizze zeigt EG und 1. OG als Ausstellungsebenen sowie das UG mit WC. Das stimmt in der Struktur mit der Recherche überein. Die geometrische Genauigkeit und die Einordnung des WC ins UG lassen sich aus der Angabe „unten“ allein nicht bestätigen.
+- **Zuordnung:** Twister und Schiffe versenken stehen im vorhandenen Spielbereich im 1. OG. It's Bananas! und Codebreaker stehen im vorhandenen Spielbereich am Eingang. Die vier Zuordnungen beruhen auf übereinstimmenden Einträgen der bisherigen Planskizze und bleiben auf Bereichsebene. Bei 53 Einträgen fehlt eine bestätigte Position. Die Foto-Reihenfolge ist als interner Hinweis hinterlegt.
+- **Teilnehmerzahlen:** Vorläufige Werte sind als solche markiert. Mathematische Karten, Wurfspiel/Zielscheibe und Holz-Kugelspiel haben unbekannte Teilnehmerzahlen und Arbeitsbezeichnungen. Frösch-Balance hat einen zu prüfenden Namen. Die übrigen Teilnehmerangaben entsprechen dem Recherchebestand.
+- **Spielbereich:** Retro-Gaming und Super Nintendo sind separat auffindbare Einträge in einer möglichen gemeinsamen Spielzone. Empfehlungen schlagen höchstens einen davon pro Tour vor. Die zehn Minuten für Retro-Gaming sind die maximale Spielzeit laut Schild. Eine Gesamtdauer wird nicht berechnet.
+- **Offene Bestätigungen:** Positionen und Spielanleitungen, die im Inventar fehlen, die gemeinsame Retro-Spielzone, tatsächliche Dauern, stufenfreier Zugang und stationsbezogene Hinweise auf sensible Themen. Erste Hilfe ist nicht im Spielbestand enthalten.
+- **Gespeicherte Touren:** Vier identische Aktivitäten behalten ihre bisherigen IDs. Alte Prototyp-Stopps ohne Entsprechung im neuen Bestand werden beim Laden übersprungen und mit einem Hinweis gemeldet.
+- **Prüfung:** `node verify.mjs` prüft die eindeutigen Einträge und Kombinationen aus Personengruppe, Kategorie und stufenfreiem Zugang.
 
-## Erdgeschoss
+## Karte nach der neuen Skizze
 
-| Erlebnis | Zuordnung | Herkunft |
-|---|---|---|
-| Gefühlsbarometer | ★ | Ergänzte Prototyp-Idee |
-| Was würdest du tun, wenn …? | ♡ | Eure Notiz |
-| Wer würde eher …? | ♡ | Eure Notiz |
-| Entweder oder? | ★♡ | Eure Notiz |
-| Komplimente tauschen | ♡ | Ergänzte Prototyp-Idee |
-| Moralisches Dilemma | ★♡ | Eure Notiz |
-| Wahrheit oder Pflicht für Beziehungen | ★♡ | Eure Notiz |
-| Deep-Talk-Fragen | ★♡ | Eure Notiz |
-| Wie gut kennst du mich? | ♡ | Eure Notiz |
-| Perspektivwechsel | ★ | Ergänzte Prototyp-Idee |
-| 2 Wahrheiten, 1 Lüge | ♡ | Eure Notiz |
-| Truth or Drink | ★♡ | Eure Notiz |
-| VR-Brille | – | Eure Notiz |
-| PlayStation | ★ | Eure Notiz |
-| Icebreaker | ★ | Eure Notiz |
-| Team-Challenge | ★ | Ergänzte Prototyp-Idee |
-| Monopoly | ★ | Eure Notiz |
-| Affenalarm | – | Eure Notiz |
-| Mastermind | ★ | Eure Notiz |
-| Red Flag oder Green Flag? | ♡ | Eure Notiz |
-| Wer ist es? | ★ | Eure Notiz |
-| It's Bananas (im Spielbereich) | ★ | Eure Notiz |
-| Dart (im Spielbereich) | ★ | Eure Notiz |
-| Vier gewinnt (im Spielbereich) | ★ | Eure Notiz |
-| Erste-Hilfe-Kurs (im Spielbereich) | ★ | Eure Notiz |
-| Welches Filmgenre mag die andere Person? (im Spielbereich) | ♡ | Eure Notiz |
-| Code Breaker (im Spielbereich) | ★ | Eure Notiz |
-| Zombie Würfel (im Spielbereich) | ★ | Eure Notiz |
+Der Abschnitt zur bisherigen Zuordnung beschreibt den früheren Stand. Die neue Skizze liefert 54 auf den vorhandenen Plan übertragene Positionen (13 im OG, 41 im EG). Die Nummern in `map-points.js` stammen aus der neuen Liste und bleiben von gespeicherten Tour-IDs getrennt. „Mathematische Karten“ fehlt in der neuen Liste. Für „Pinguin-Eisbrecher“ und „Fang das Ei!“ fehlt ein eindeutiger Kartenpunkt. Alle drei bleiben in der Übersicht. „Erste Hilfe“ hat keinen bestätigten Eintrag als Tourstation.
 
-## 1. Obergeschoss
-
-| Erlebnis | Zuordnung | Herkunft |
-|---|---|---|
-| Auf Wänden zeichnen | ★ | Eure Notiz |
-| Schätzfragen (im Spielbereich) | ★ | Eure Notiz |
-| Farbgespräch | ★ | Ergänzte Prototyp-Idee |
-| Geschichtenwürfel | ★ | Ergänzte Prototyp-Idee |
-| Twister (im Spielbereich) | ★ | Eure Notiz |
-| Schiffe versenken (im Spielbereich) | ★ | Eure Notiz |
-| Bowling (im Spielbereich) | ★ | Eure Notiz |
-| Rate, was ich zeichne oder erkläre (im Spielbereich) | ★ | Eure Notiz |
-| Stadt, Land, Fluss (im Spielbereich) | ★ | Eure Notiz |
-| Enten mit Magneten angeln (im Spielbereich) | ★ | Eure Notiz |
-| Memory (im Spielbereich) | ★ | Eure Notiz |
-| Dobble (im Spielbereich) | – | Eure Notiz |
-
-Die Namen „Wer würde eher …?“, „Wer ist es?“ und „Rate, was ich zeichne oder erkläre“ sind aus der Handschrift sinngemäß vereinheitlicht.
-
-Bearbeitung: `station-notes.js`. Alle einzelnen Spiele eines Bereichs sind über dessen Detailpanel aufrufbar und separat zur Tour hinzufügbar. Bereiche selbst werden nicht zusätzlich als Spiel empfohlen, damit Dauer und Stopps nicht doppelt gezählt werden.
+Die beiden Entdeckungsebenen starten ausgeschaltet. Die Strumpfhose und die gekennzeichnete Demo-Wandfrage bleiben neben der Karte, bis Koordinaten vorliegen. Für die Strumpfhose fehlt außerdem das Foto der Geschichte. In `map-points.js` können echte Fundorte und der Ausstellungstext ergänzt werden.
